@@ -30,7 +30,7 @@ export default async function Home({ searchParams }: PageProps) {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <aside className="col-span-1">
+      <aside className="col-span-3 lg:col-span-1">
         <RetroContainer className="sticky top-24 bg-pink-100/50 backdrop-blur-sm">
           <h2 className="font-black text-xl mb-6 uppercase border-b-2 border-black pb-2">
             Filters
