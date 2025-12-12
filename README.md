@@ -1,48 +1,44 @@
 # Product Listing App
 
-A simple Retro Themed e-commerce product listing application with shopping cart functionality.
+A retro-themed e-commerce product listing application with shopping cart functionality and modern web features.
 
-## Getting Started
+## ✨ Features
 
-### Installation
+### Design & UI
 
-```bash
-npm install
-```
+- **RetroUI Design** - Bold borders, shadows, and vibrant colors
+- **Responsive** - Works on mobile, tablet, and desktop
+- **Loading Skeletons** - Elegant loading states during data fetching
 
-### Development
+### Product Browsing
 
-Run the development server:
+- **Multiple View Modes** - Toggle between grid and list views
+- **Product Search** - Real-time search with debouncing
+- **Advanced Sorting** - Sort by name (A-Z, Z-A) or price (Low-High, High-Low)
+- **Pagination** - Navigate through products with skip-based pagination (30 items per page)
+- **Product Details** - Detailed product pages with image galleries
+- **Category Tags** - Visual category identification
+- **Rating Display** - Star ratings for each product
 
-```bash
-npm run dev
-```
+### Shopping Cart
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+- **Add to Cart** - Quick add from product cards or list items
+- **Cart Management** - Increase/decrease quantities or remove items
+- **Real-time Total** - Live calculation of cart total
+- **Persistent Cart** - Cart state preserved using Context API
+- **Item Counter** - Badge showing number of items in cart
 
-### Build
+## 🛠️ Tech Stack
 
-```bash
-npm run build
-npm start
-```
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** Custom retro-styled components
+- **State Management:** React Context API
+- **Icons:** Lucide React
+- **API:** DummyJSON REST API
 
-## Features
-
-- Browse products
-- Add items to cart
-- View cart with item count
-- Product detail pages
-- Responsive design
-
-## Tech Stack
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-
-## Project Structure
+## 📁 Project Structure
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
